@@ -1,0 +1,181 @@
+/*
+.navbar-default {
+  background-color: transparent;
+  height: 80px;
+  border-top: none;
+}
+.navbar-default .navbar-brand {
+  margin-top: 15px;
+}
+.nav navbar-nav navbar-right {
+  margin-top: 15px;
+}
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143;
+  color: #333;
+}
+.text-default {
+  color: #777777 !important;
+  font-size: 1.3em;
+  font-family: "Droid Serif";
+  line-height: 1.4737;
+}
+.navbar.navbar-fixed-top {
+  transition: all .5s .1s;
+}
+.nav.navbar-nav.navbar-right{
+font-size: 16px;
+}
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+.myh1 {
+  margin: 150px;
+  font-size: 6em;
+  font-family: "slim joe";
+  text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+}
+.aboutme {
+  font-size: 2em;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  margin: 0.4em 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bg-1 {
+	background: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050") no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default {
+  background-color: transparent;
+  border-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a {
+  font-family: "slim joe";
+}
+/*img {
+  transform: translate3d(0px, 58.3333px, 0px);
+  border: 0;
+  vertical-align: middle;
+} */
+/* Add the below transitions to allow a smooth color change similar to lyft */
+/*navbar */
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+.navbar-brand.scrolled {
+  color: #343434 !important;
+}
+.navbar-brand {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "slim joe";
+  height: 50px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 20px 15px;
+  margin: 5px 0px;
+}
+.navbar.scrolled {
+    background: white;
+}
+/*pannel*/
+.col-md-4 {
+  margin-top: 40px;
+}
+.panel-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+.panel-default {
+  font-family: "Verlag-Book";
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+/*.panel-body {
+  padding: 24px !important;
+} */
+.panel-heading {
+  padding: 24px;
+  background-color: transparent !important;
+}
+/*fa */
+
+a {
+  color: #444444 !important;
+  text-decoration: none;
+}
+.social:hover {
+  color: #E3C4A0 !important;
+}
+/*footer */
+#footer {
+    line-height: 20px;
+    height: 60px;
+    background-color: rgba(30, 30, 30, 0.97);
+    margin-top:0px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#footer a {
+  margin-left: 20px;
+  color: #777777 !important;
+}
+.text-muted {
+  color: #dddddd;
+}
+/* gallery */
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* map css */
+.thanks {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
